@@ -1,0 +1,138 @@
+/* css reset */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+strong,
+dl,
+dt,
+dd,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+}
+html,
+body {
+  height: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+.wrap {
+  width: 1256px;
+  height: 772px;
+  padding: 30px 62px 30px 59px;
+  background-color: #ffffff;
+}
+
+/* 스크랩한 것만 보기 */
+.only_scrap_wrap {
+  margin-left: 20px;
+}
+.scrap_btn {
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  font-size: 0;
+  transition: opacity 0.1s;
+  position: absolute;
+}
+.only_scrap_wrap img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px 0 0;
+  object-fit: contain;
+}
+.only_scrap_wrap p {
+  height: 24px;
+  line-height: 24px;
+  margin-left: 30px;
+}
+
+/* photo */
+.photo_card_wrap {
+  float: left;
+  padding: 20px;
+}
+.ic_avatar_cat {
+  width: 36px;
+  height: 36px;
+  margin: 0 10px 0 0;
+  object-fit: contain;
+  float: left;
+}
+.photo_card_wrap p {
+  height: 36px;
+  line-height: 36px;
+}
+.Tommy-Cummings {
+  width: 124px;
+  height: 19px;
+  margin: 10px 50px 7px 10px;
+  font-family: AppleSDGothicNeo;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.74);
+}
+.Rectangle {
+  width: 268px;
+  height: 268px;
+  margin: 10px 0 0;
+  /*padding: 226px 10px 10px 226px; */
+  border-radius: 10px;
+}
+.on-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.blue {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.photo_card_wrap button {
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  font-size: 0;
+  transition: opacity 0.1s;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: -40px;
+}
