@@ -25,7 +25,7 @@ scraplist = {
         nickname: "사용자 21"                        
         profile_image_url: "https://image.ohou.se/image/central_crop/bucketplace-v2-development/uploads-default_images-avatar.png/80/80"                                       
 }        
-구분값 scraplist.id 
+구분값 scraplist.id                                              
 스크랩한 것만 모아보기시 외부 url과의 API 통신을 줄이고, 
 사용자가 설정한 스크랩을 최신순으로 노출하기 위해 localStorage 에 스크랩 정보 저장 
                                
