@@ -30,7 +30,7 @@ scraplist = {
 사용자가 설정한 스크랩을 최신순으로 노출하기 위해 localStorage 에 스크랩 정보 저장 
                                
 ### 5. 기능 
-- 사진 하나의 class 구현                    
+- 사진 하나의 class 구현                       
 - localStorage                    
   - 스크랩한 사진의 정보를 localStorage에 저장하여 리로드시 동일 결과 노출                    
 - 페이지 로드                    
